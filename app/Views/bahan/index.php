@@ -3,7 +3,7 @@
 <?= $this->section('content'); ?>
 <div class="container">
     <div class="row">
-        <div class="col">
+        <div class="col box box-warning box-solid">
             <h1 class="mt-2">Daftar Bahan</h1>
             <a class="btn btn-primary my-3" href="/bahan/create">Tambah Data</a>
             <?php if (session()->getFlashdata('pesan')) : ?>
